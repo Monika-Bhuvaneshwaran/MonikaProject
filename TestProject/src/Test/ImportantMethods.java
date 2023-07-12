@@ -11,7 +11,7 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
        File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
        Files.copy(f, new File("D:\\Screenshots\\ss.jpg"));
  
- * Screenshot using selenium for entire webpage:
+ * Screenshot using selenium for capturing entire webpage:
        File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
        FileUtils.copyFile(f, new File("D:\\Screenshots\\ss.jpg"));
   

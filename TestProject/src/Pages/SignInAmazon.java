@@ -21,7 +21,7 @@ public class SignInAmazon {
 		
 	// Function to sign in giving phone number and password
 	public void SignIn() throws InterruptedException {
-		System.out.println("The title of signIn page is : " + driver.getTitle());
+		System.out.println("The title of the signIn page is : " + driver.getTitle());
 		driver.findElement(mobile).sendKeys("7305305945");
 		Thread.sleep(2000);
 		driver.findElement(continuebtn).click();

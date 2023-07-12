@@ -71,7 +71,7 @@ public class SampleForm {
 	      highlightElement(driver,pincode);
 	      
 	      WebElement phonenum = driver.findElement(By.xpath("//*[@id= 'input_11_phone']"));
-	      phonenum.sendKeys("123456789");
+	      phonenum.sendKeys("1234567890");
 	      highlightElement(driver,phonenum);
 	      
 	    //to perform Scroll on application using Selenium

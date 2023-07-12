@@ -47,7 +47,7 @@ public class OrderAmazonPage {
 		driver.findElement(searchBar).click();
 		driver.findElement(searchBar).sendKeys("watches for women");
 		driver.findElement(searchBar).sendKeys(Keys.ENTER);
-		System.out.println("Title of page is : " + driver.getTitle());
+		System.out.println("Title of the page is : " + driver.getTitle());
 	}
 //Selecting a watch and ordering it
 	

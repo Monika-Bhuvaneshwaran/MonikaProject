@@ -1,4 +1,4 @@
-/*Steps to reproduce:
+/*Steps to reproduce are:
 	1. Login to homepage
     2. SignIn to amazon account
     3. SignOut of account

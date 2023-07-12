@@ -30,6 +30,7 @@ public class AmazonFirstOrder {
 		driver.manage().window().maximize();
 		//File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//FileUtils.copyFile(f, new File("D:\\Screenshots\\Homepage.jpg"));
+		//
 	     Screenshot s = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(400)).takeScreenshot(driver);
 	     ImageIO.write(s.getImage(),"JPG",new File("D:\\Screenshots\\homepage.jpg"));
 		

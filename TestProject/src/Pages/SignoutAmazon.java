@@ -15,7 +15,7 @@ WebDriver driver;
 	public void SignOut()throws InterruptedException{
 		driver.findElement(option).click();
 		driver.findElement(signout).click();
-		System.out.println("User is signed out succesfully");
+		System.out.println("User is signed out succesfullyy");
 	}
 
 }

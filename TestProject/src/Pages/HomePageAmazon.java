@@ -21,7 +21,7 @@ public class HomePageAmazon {
 	public void ClickSignIn() throws InterruptedException {
 		System.out.println("The title of the homepage is : " + driver.getTitle());
 		driver.findElement(SignInbtn).click();
-		System.out.println("The sign in icon is clicked");
+		System.out.println("The sign in icon is clicked now");
 		
 	}
 
