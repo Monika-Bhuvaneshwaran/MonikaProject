@@ -95,7 +95,7 @@ public class SampleForm {
 	      Files.copy(f, new File("D:\\Screenshots\\ss.jpg"));
 	      WebElement submit = driver.findElement(By.xpath("//button[@type= 'submit']"));
 	      submit.click();
-	      System.out.println("form completed");
+	      System.out.println("form is completed");
 	}
 	/*public static void assertEquals(String s, WebElement element) {
 		s = "Thank You!";
